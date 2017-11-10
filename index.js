@@ -9,8 +9,8 @@ function printBadges(employees) {
 
 
 function tailsNeverFails() {
+  let n=0;
   while (Math.random() >= 0.5) {
-    let n=0;
     n++;
   }
 }
