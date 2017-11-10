@@ -8,15 +8,24 @@ function printBadges(employees) {
 }
 
 
-let n=0;
 function tailsNeverFails() {
-
-    while (tailsNeverFails()) {
-        return Math.random() >= 0.5;
-      n++;
-    }
-  // console.log(`You got ${n} tails in a row!`);
+  while (let n=0; n <= coinFlip; n++) {
+    let coinFlip = Math.random() >= 0.5;
+    return coinFlip;
   }
+}
+
+
+// 
+// 
+// function tailsNeverFails() {
+// let n=0;
+//   while (tailsNeverFails()) {
+//     return Math.random() >= 0.5;
+//       n++;
+//     }
+//   // console.log(`You got ${n} tails in a row!`);
+//   }
 
 
 
