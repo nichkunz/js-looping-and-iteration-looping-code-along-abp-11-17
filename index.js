@@ -7,16 +7,26 @@ function printBadges(employees) {
     return employees;
 }
 
-// let i=0
+
 let n=0;
 function tailsNeverFails() {
   return Math.random() >= 0.5;
     while (tailsNeverFails()) {
-      n++;
-      return n;
     }
   console.log(`You got ${n} tails in a row!`);
   }
+
+
+
+// let n=0;
+// function tailsNeverFails() {
+//   return Math.random() >= 0.5;
+//     while (tailsNeverFails()) {
+//       n++;
+//       return n;
+//     }
+//   console.log(`You got ${n} tails in a row!`);
+//   }
 
 
 
