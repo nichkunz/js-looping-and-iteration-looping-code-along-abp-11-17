@@ -11,7 +11,6 @@ function printBadges(employees) {
 function tailsNeverFails() {
   while (let n=0; n <= coinFlip; n++) {
     let coinFlip = Math.random() >= 0.5;
-    return coinFlip;
   }
 }
 
