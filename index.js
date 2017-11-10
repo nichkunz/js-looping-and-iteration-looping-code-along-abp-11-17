@@ -14,7 +14,7 @@ function tailsNeverFails() {
     while (tailsNeverFails() == 'true') {
       n++;
     }
-  return tailsNeverFails();
+  console.log(`You got ${n} tails in a row!`);
   }
 
 
