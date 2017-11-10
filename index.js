@@ -9,12 +9,20 @@ function printBadges(employees) {
 
 
 function tailsNeverFails() {
-  let coinFlip;
-  while (let n=0; coinFlip <= 0.5; n++) {
-    coinFlip = Math.random();
-    return coinFlip;
+  while (Math.random() >= 0.5) {
+    let n=0;
+    n++;
   }
 }
+
+
+// function tailsNeverFails() {
+//   let coinFlip;
+//   while (let n=0; coinFlip <= 0.5; n++) {
+//     coinFlip = Math.random();
+//     return coinFlip;
+//   }
+// }
 
 
 //
