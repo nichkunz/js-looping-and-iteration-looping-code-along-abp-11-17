@@ -10,11 +10,12 @@ function printBadges(employees) {
 // let i=0
 let n=0;
 function tailsNeverFails() {
-  return Math.random() <= 0.5;
+  return Math.random() >= 0.5;
   }
 
 while (tailsNeverFails()) {
-  console.log(`You got ${n++} tails in a row!`);
+  // console.log(`You got ${n++} tails in a row!`);
+  return "You got ${n} tails in a row";
 }
 
 //
